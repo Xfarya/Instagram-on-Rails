@@ -15,6 +15,7 @@
     </div>
     <div class="description">
       <%= @post.description %>
+      
     </div>
     <div class="delete">
   <% if current_user.posts.exists?(@post.id) %>
@@ -23,4 +24,3 @@
 </div>
   </div>
 </div>
-
