@@ -26,6 +26,8 @@ gem "pg"
 gem "bootstrap", '~> 4.1.1'
 gem 'jquery-rails'
 gem 'font-awesome-rails'
+#pagination
+gem 'kaminari'
 
 gem 'devise'
 # Reduces boot times through caching; required in config/boot.rb
